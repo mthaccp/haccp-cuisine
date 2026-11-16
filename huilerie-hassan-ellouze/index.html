@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#1e3529" />
+  <meta name="description" content="Huilerie Hassan Ellouze — huile d'olive vierge extra biologique certifiée. Bouteilles en verre ou plastique, vente aux particuliers et professionnels en Tunisie." />
+  <title>Huilerie Hassan Ellouze | Huile d'olive vierge extra bio</title>
+  <link rel="icon" href="assets/logo-transparent.webp" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="config.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="announce"><span class="announce-leaf">✦</span> <span>Huile d’olive vierge extra biologique certifiée</span><span class="announce-divider">·</span><span>Disponible en Tunisie</span> <span class="announce-leaf">✦</span></div>
+  <header class="site-header" id="haut">
+    <div class="site-header-inner wrap">
+      <a href="#haut" class="brand" aria-label="Huilerie Hassan Ellouze, accueil">
+        <span class="brand-symbol"><img src="assets/logo-transparent.webp" alt="Lion du logo Huilerie Hassan Ellouze" /></span>
+        <span class="brand-copy"><strong>HASSAN ELLOUZE</strong><small>H U I L E R I E</small></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Menu principal">
+        <a href="#collection">Nos huiles</a>
+        <a href="#histoire">Notre histoire</a>
+        <a href="#professionnels">Professionnels</a>
+        <a href="#questions">Informations</a>
+      </nav>
+      <div class="header-actions">
+        <a class="header-pro-link" href="#professionnels">Espace pro <span>↗</span></a>
+        <button id="cart-open" class="cart-trigger" type="button" aria-label="Ouvrir le panier de demandes"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1.3 12H6.3L5 8ZM9 9V6a3 3 0 0 1 6 0v3"/></svg><span class="cart-label">Panier</span><span class="cart-count" id="cart-count">0</span></button>
+        <button class="menu-trigger" id="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Menu mobile" hidden>
+      <a href="#collection">Nos huiles</a><a href="#histoire">Notre histoire</a><a href="#professionnels">Professionnels</a><a href="#questions">Informations</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="line"></span> HUILERIE HASSAN ELLOUZE <span class="eyebrow-mark">✦</span> TUNISIE</div>
+        <h1>Le goût d'une terre.<br/><em>L'art d'un héritage.</em></h1>
+        <p>Une huile d'olive vierge extra biologique, mise à l'honneur dans des flacons pensés pour vos instants du quotidien et vos plus belles tables.</p>
+        <div class="hero-buttons"><a href="#collection" class="btn btn-dark">Découvrir nos huiles <span>↗</span></a><a href="#professionnels" class="btn btn-outline">Vous êtes professionnel ? <span>→</span></a></div>
+        <div class="hero-highlights"><span><b>01</b> Vierge extra</span><span class="bar"></span><span><b>02</b> Certifiée bio</span><span class="bar"></span><span><b>03</b> Extraite à froid</span></div>
+      </div>
+      <div class="hero-photo">
+        <div class="hero-photo-bg"></div>
+        <img src="assets/bouteille-verre-750.webp" alt="Bouteille en verre 750 ml de l'Huilerie Hassan Ellouze, avec le lion sur l'étiquette" />
+        <div class="seal"><span>HUILE D'OLIVE</span><b>100%</b><span>VIERGE EXTRA</span></div>
+        <div class="hero-photo-caption"><span class="dot"></span> Notre signature · Verre 750 ml</div>
+      </div>
+    </section>
+
+    <div class="promise-bar"><div class="wrap promise-inner"><span><span class="promise-icon">✳</span> Agriculture biologique certifiée</span><span><span class="promise-icon">◇</span> Notre savoir-faire</span><span><span class="promise-icon">↗</span> Particuliers &amp; professionnels</span><span><span class="promise-icon">✧</span> Commandes en Tunisie</span></div></div>
+
+    <section class="section section-collection wrap" id="collection">
+      <div class="section-head">
+        <div><div class="eyebrow eyebrow-olive">NOS PRODUITS <span>✦</span> COLLECTION</div><h2>Une huile, <em>quatre façons</em><br/>de la savourer.</h2></div>
+        <div class="section-head-aside"><p>Du flacon élégant au format pratique, découvrez les quatre références de notre collection.</p><div class="filters" role="group" aria-label="Filtrer les produits"><button type="button" class="filter active" data-filter="all">Tous</button><button type="button" class="filter" data-filter="verre">Verre</button><button type="button" class="filter" data-filter="plastique">Plastique</button></div></div>
+      </div>
+      <div class="products" id="products" aria-live="polite"></div>
+      <div class="catalogue-foot"><span>Les prix seront communiqués prochainement.</span><a href="#professionnels">Besoin d'un volume professionnel ? <b>Demandez un devis →</b></a></div>
+    </section>
+
+    <section class="story" id="histoire">
+      <div class="story-photo"><img src="assets/bouteille-en-main.webp" alt="Présentation de la bouteille Huilerie Hassan Ellouze tenue à la main"/><span class="photo-small-label">HUILERIE HASSAN ELLOUZE / TUNISIE</span></div>
+      <div class="story-content"><div class="eyebrow eyebrow-olive">NOTRE ESSENCE <span>✦</span> SAVOIR-FAIRE</div><h2>La nature a son<br/><em>propre caractère.</em></h2><p>Chez Huilerie Hassan Ellouze, nous souhaitons donner à l'huile d'olive la place qu'elle mérite : un produit de terroir, précieux et authentique.</p><p>Notre huile d'olive vierge extra biologique certifiée est disponible en bouteilles en verre, en plastique et en vrac pour les professionnels.</p><div class="story-line"></div><div class="story-qualities"><div><b>Bio</b><span>Certifiée</span></div><div><b>Extra</b><span>Vierge</span></div><div><b>Froid</b><span>Extraction</span></div></div><a class="text-link" href="#collection">Voir notre collection <span>↗</span></a></div>
+    </section>
+
+    <section class="b2b" id="professionnels">
+      <div class="wrap b2b-grid">
+        <div class="b2b-lead"><div class="eyebrow eyebrow-light">HASSAN ELLOUZE <span>✦</span> BUSINESS</div><h2>Une même exigence.<br/><em>À plus grande échelle.</em></h2><p>Restaurants, hôtels, épiceries fines, distributeurs ou grossistes : échangeons sur vos besoins en huile d'olive biologique.</p><div class="b2b-services"><div><span class="b2b-icon">◈</span><span><b>Vente en vrac</b><small>Volumes et tarifs sur devis</small></span></div><div><span class="b2b-icon">▣</span><span><b>Bouteilles pour professionnels</b><small>Formats verre 750 ml et plastique 250, 500, 750 ml</small></span></div><div><span class="b2b-icon">◎</span><span><b>Approvisionnement adapté</b><small>Étude selon votre activité et les quantités</small></span></div></div></div>
+        <div class="quote-card"><div class="quote-head"><div><span>ESPACE PROFESSIONNEL</span><h3>Demander un devis</h3><p>Expliquez-nous votre besoin. Nous préparons votre demande en quelques clics.</p></div><span class="quote-mark">↗</span></div>
+        <form id="quote-form" class="form" novalidate>
+          <div class="form-line"><label>Nom / société *<input name="societe" type="text" placeholder="Votre nom ou entreprise" required maxlength="120"/></label><label>Téléphone *<input name="telephone" type="tel" placeholder="Votre numéro en Tunisie" required maxlength="30"/></label></div>
+          <div class="form-line"><label>Votre activité <select name="activite"><option>Restaurant</option><option>Hôtel</option><option>Épicerie / revendeur</option><option>Grossiste / distributeur</option><option>Autre</option></select></label><label>Produit recherché <select name="produit"><option>Huile en vrac</option><option>Verre 750 ml</option><option>Plastique 250 ml</option><option>Plastique 500 ml</option><option>Plastique 750 ml</option><option>Plusieurs références</option></select></label></div>
+          <div class="form-line"><label>Quantité souhaitée<input name="quantite" type="text" placeholder="Ex. 100 litres ou 24 bouteilles" maxlength="80"/></label><label>Gouvernorat<input name="region" type="text" placeholder="Ex. Tunis" maxlength="80"/></label></div>
+          <label>Précisions éventuelles<textarea name="message" rows="3" placeholder="Livraison souhaitée, fréquence, conditionnement…" maxlength="1000"></textarea></label>
+          <button class="btn btn-brass" type="submit">Préparer ma demande <span>↗</span></button>
+          <p class="form-note">Aucun message n'est envoyé automatiquement à cette étape. Vous pourrez copier ou transmettre votre demande.</p>
+        </form></div>
+      </div>
+    </section>
+
+    <section class="how wrap"><div class="eyebrow eyebrow-olive">SIMPLE &amp; PERSONNALISÉ</div><h2>Comment <em>commander ?</em></h2><div class="steps"><div class="step"><span>01 /</span><h3>Choisissez</h3><p>Parcourez les formats de la collection et ajoutez ceux qui vous intéressent à votre panier.</p></div><div class="step"><span>02 /</span><h3>Préparez</h3><p>Indiquez vos quantités et vos coordonnées. La boutique génère votre demande.</p></div><div class="step"><span>03 /</span><h3>Échangeons</h3><p>Recevez ensuite les conditions commerciales, les prix et les modalités de livraison.</p></div></div></section>
+
+    <section class="faq wrap" id="questions"><div class="faq-intro"><div class="eyebrow eyebrow-olive">BON À SAVOIR</div><h2>Vos questions,<br/><em>nos réponses.</em></h2><p>Les premières informations utiles avant votre commande.</p></div><div class="faq-accordion"><details open><summary>Votre huile est-elle certifiée biologique ? <span>+</span></summary><p>Oui. Notre huile est présentée comme biologique certifiée. Les informations et justificatifs de certification pourront être intégrés à la fiche produit.</p></details><details><summary>Quels formats proposez-vous ? <span>+</span></summary><p>Une bouteille en verre de 750 ml et trois bouteilles en plastique de 250 ml, 500 ml et 750 ml. Nous étudions aussi les commandes professionnelles en vrac.</p></details><details><summary>Livrez-vous partout en Tunisie ? <span>+</span></summary><p>Le site cible le marché tunisien. Les zones desservies, tarifs et délais de livraison seront communiqués après mise en place du transport.</p></details><details><summary>Comment obtenir un prix professionnel ? <span>+</span></summary><p>Remplissez le formulaire « Demander un devis » en indiquant votre activité, le type de produit et la quantité souhaitée.</p></details></div></section>
+  </main>
+
+  <footer class="footer"><div class="wrap footer-main"><div class="footer-brand"><span class="footer-logo"><img src="assets/logo-transparent.webp" alt="Logo Huilerie Hassan Ellouze" /></span><div><strong>HASSAN ELLOUZE</strong><small>H U I L E R I E</small></div><p>L’huile d’olive vierge extra biologique, entre tradition et élégance.</p></div><div class="footer-links"><h4>EXPLORER</h4><a href="#collection">Notre collection</a><a href="#histoire">Notre histoire</a><a href="#professionnels">Espace professionnels</a></div><div class="footer-links"><h4>INFORMATIONS</h4><a href="#questions">Questions fréquentes</a><a href="#professionnels">Demande de devis</a><a href="#haut">Retour en haut ↑</a></div><div class="footer-contact"><h4>RESTONS EN CONTACT</h4><p>Vous souhaitez distribuer nos huiles ou recevoir un devis ?</p><a class="footer-cta" href="#professionnels">Écrivez-nous <span>↗</span></a><small>Tunisie</small></div></div><div class="footer-bottom wrap"><span>© <span id="year">2026</span> Huilerie Hassan Ellouze. Tous droits réservés.</span><span>Site de présentation · Commandes sur demande</span></div></footer>
+
+  <div class="overlay" id="overlay" hidden></div>
+  <aside class="drawer" id="cart-drawer" aria-hidden="true" aria-label="Panier de demandes" role="dialog" aria-modal="true">
+    <div class="drawer-header"><div><span class="eyebrow eyebrow-olive">VOTRE SÉLECTION</span><h2>Mon panier <span id="drawer-count"></span></h2></div><button type="button" class="icon-button" id="cart-close" aria-label="Fermer le panier">×</button></div>
+    <div class="drawer-body"><div id="cart-lines"></div><div id="cart-empty" class="empty-cart"><span>◇</span><h3>Votre panier est vide</h3><p>Choisissez une ou plusieurs bouteilles pour préparer votre demande.</p><button type="button" class="btn btn-dark" id="empty-shopping">Découvrir la collection ↗</button></div></div>
+    <div class="drawer-footer" id="cart-footer"><div class="basket-note"><span>ⓘ</span> Les prix seront ajoutés ultérieurement. Votre panier prépare une demande, sans paiement.</div><button type="button" class="btn btn-dark btn-full" id="cart-request">Préparer ma commande <span>↗</span></button></div>
+  </aside>
+
+  <div class="modal-backdrop" id="modal-backdrop" hidden><section class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title"><button type="button" class="icon-button modal-close" id="modal-close" aria-label="Fermer">×</button><div class="eyebrow eyebrow-olive" id="modal-tag">VOTRE DEMANDE</div><h2 id="modal-title">Préparer votre message</h2><p id="modal-desc">Voici votre demande, prête à être copiée et transmise à l'huilerie.</p><div id="buyer-fields"><form id="buyer-form" class="form form-buyer"><label>Nom et prénom *<input name="nom" required maxlength="120" placeholder="Votre nom"/></label><div class="form-line"><label>Téléphone *<input name="telephone" type="tel" required maxlength="30" placeholder="Votre téléphone"/></label><label>Gouvernorat<input name="region" maxlength="80" placeholder="Ex. Sfax"/></label></div><label>Informations complémentaires<textarea name="details" rows="2" maxlength="400" placeholder="Livraison, remarques…"></textarea></label><button type="submit" class="btn btn-dark btn-full">Générer mon récapitulatif →</button></form></div><div id="message-preview" hidden><pre id="request-output"></pre><button class="btn btn-dark btn-full" type="button" id="copy-request">Copier la demande <span>⧉</span></button><a class="btn btn-outline btn-full" id="wa-request" target="_blank" rel="noopener noreferrer" hidden>Envoyer par WhatsApp ↗</a><p class="form-note">La copie du message ne transmet aucune donnée automatiquement.</p></div></section></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
